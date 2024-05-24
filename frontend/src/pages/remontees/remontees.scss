@@ -1,0 +1,108 @@
+.remontees {
+    padding: 20px;
+    background-color: #e0f7fa; // Couleur de fond
+
+    h1 {
+        color: #333;
+        text-align: center;
+        margin-top: 40px; // Augmentez cette valeur pour descendre le titre
+        margin-bottom: 20px;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0; // Assurez-vous que la marge extérieure est nulle
+
+        li {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 0; // Réduction de l'espace entre les éléments à zéro pour "coller" les listes
+
+            .remontee-item {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                transition: background-color 0.3s; // Transition pour effet au survol
+
+                &:hover {
+                    background-color: #f1f1f1; // Effet au survol pour mettre en évidence l'élément
+                }
+
+                .controls {
+                    .switch {
+                        position: relative;
+                        display: inline-block;
+                        width: 60px;
+                        height: 34px;
+
+                        input {
+                            opacity: 0;
+                            width: 0;
+                            height: 0;
+                        }
+
+                        .slider {
+                            position: absolute;
+                            cursor: pointer;
+                            top: 0;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
+                            background-color: #ccc;
+                            transition: .4s;
+                            border-radius: 34px;
+
+                            &:before {
+                                position: absolute;
+                                content: "";
+                                height: 26px;
+                                width: 26px;
+                                left: 4px;
+                                bottom: 4px;
+                                background-color: white;
+                                transition: 0.4s;
+                                border-radius: 50%;
+                            }
+                        }
+
+                        input:checked + .slider {
+                            background-color: #2196F3;
+                        }
+
+                        input:checked + .slider:before {
+                            transform: translateX(26px);
+                        }
+                    }
+                }
+
+                .details-link {
+                    color: #007bff;
+                    cursor: pointer;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+
+                .detail-modal {
+                    background-color: white;
+                    border: 1px solid #ccc;
+                    padding: 10px;
+                    border-radius: 5px;
+                    margin-top: 5px;
+                }
+            }
+
+            &:last-child {
+                border-bottom: none; // Retirer la bordure du dernier élément
+            }
+        }
+    }
+
+    .loading {
+        font-size: 16px;
+        color: #666;
+        text-align: center;
+    }
+}

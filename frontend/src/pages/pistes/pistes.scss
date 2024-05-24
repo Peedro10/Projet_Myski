@@ -1,0 +1,102 @@
+.pistes {
+    .title {
+        font-size: 32px; // Taille existante
+        color: #2a6496; // Couleur existante
+        text-align: center; // Alignement existant
+        margin-top: 30px; // Ajouté pour descendre le titre
+        margin-bottom: 30px; // Augmenté pour donner plus d'espace au-dessus de la liste
+    }
+    .piste-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .piste-item {
+        width: 45%; // Deux pistes par ligne
+        margin: 10px;
+        background-color: #f0f0f0;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+        .piste-name {
+            font-size: 24px;
+            color: #333;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .cannon-icon {
+            width: 80%; // Réduction de la taille des images
+            height: auto;
+            display: block;
+            margin: 0 auto 10px; // Centrage de l'image et espacement ajusté
+        }
+        .controls {
+            text-align: center;
+
+            .details-link {
+                padding: 12px 24px; // Augmentation de la taille du bouton pour le rendre plus grand
+                background-color: #007bff;
+                color: white;
+                font-size: 16px; // Taille de texte augmentée pour le bouton
+                border-radius: 5px;
+                cursor: pointer;
+                display: inline-block; // Assurez-vous que le bouton est correctement affiché
+                margin-top: 10px;
+
+                &:hover {
+                    background-color: #0056b3; // Couleur plus foncée pour le survol
+                }
+            }
+            .switch {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                margin: 10px auto;
+
+                input {
+                    opacity: 0;
+                    width: 0;
+                    height: 0;
+                    position: absolute;
+                }
+
+                .slider {
+                    position: relative;
+                    width: 60px;
+                    height: 34px;
+                    background-color: #ccc;
+                    transition: .4s;
+                    border-radius: 34px;
+
+                    &:before {
+                        content: '';
+                        position: absolute;
+                        height: 26px;
+                        width: 26px;
+                        left: 4px;
+                        bottom: 4px;
+                        background-color: white;
+                        transition: .4s;
+                        border-radius: 50%;
+                    }
+                }
+
+                input:checked + .slider {
+                    background-color: #2196F3; // Couleur active du slider
+                }
+
+                input:checked + .slider:before {
+                    transform: translateX(26px); // Déplacement du slider pour "checked"
+                }
+
+                .etat-text {
+                    margin-left: 10px;
+                    color: #666;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}

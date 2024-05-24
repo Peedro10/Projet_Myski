@@ -1,86 +1,71 @@
 .register {
-  height: 100vh;
-  background-color: rgb(193, 190, 255);
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
 
-  .card {
-    width: 50%;
+  .register-container {
     display: flex;
-    flex-direction: row-reverse;
-    background-color: white;
-    border-radius: 10px;
-    min-height: 600px;
-    overflow: hidden;
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
 
-    .left {
-      flex: 1;
-      background: linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.5)),
-        url("https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600")
-          center;
-      background-size: cover;
-      padding: 50px;
-      display: flex;
-      flex-direction: column;
-      gap: 30px;
-      color: white;
+    .form-container {
+      width: 350px;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.85);
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
       h1 {
-        font-size: 100px;
-        line-height: 100px;
-      }
-      
-      p {
+        margin-bottom: 20px;
       }
 
-      span {
-        font-size: 14px;
-      }
-      
-      button {
-        width: 50%;
-        padding: 10px;
-        border: none;
-        background-color: white;
-        color: rebeccapurple;
-        font-weight: bold;
-        cursor: pointer;
-      }
-    }
-
-    .right {
-      flex: 1;
-      padding: 50px;
-      display: flex;
-      flex-direction: column;
-      gap: 50px;
-      justify-content: center;
-
-      h1 {
-      color: #555;
-      }
-      
       form {
         display: flex;
         flex-direction: column;
-        gap: 30px;
-        
+
         input {
-        border: none;
-        border-bottom: 1px solid lightgray;
-        padding: 20px 10px;
-        }
-        
-        button {
-          width: 50%;
+          margin-bottom: 10px;
           padding: 10px;
-          border: none;
-          background-color: #938eef;
-          color: white;
-          font-weight: bold;
-          cursor: pointer;
+          border: 1px solid #ccc;
+          border-radius: 4px;
         }
+
+        .error {
+          color: red;
+          margin-bottom: 10px;
+        }
+
+        button {
+          padding: 10px;
+          background-color: #007bff;
+          color: white;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+
+          &:hover {
+            background-color: #0056b3;
+          }
+        }
+      }
+
+      .switch-button {
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #f8f9fa;
+        color: #333;
       }
     }
   }

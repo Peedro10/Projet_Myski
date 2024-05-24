@@ -1,0 +1,46 @@
+.footer {
+    background-color: #0a89d8;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  
+    .footer-content {
+      .social-links {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 20px;
+  
+        a {
+          display: inline-block;
+          color: white;
+          font-size: 24px; // Assurez-vous d'avoir la taille appropriée et les icônes de FontAwesome ou similaire
+        }
+      }
+  
+      .download-links {
+        margin-top: 20px;
+  
+        a {
+          margin: 0 10px;
+        }
+  
+        img {
+          height: 40px; // Réglez la hauteur des logos selon vos besoins
+        }
+      }
+    }
+  
+    .footer-bottom {
+      margin-top: 20px;
+      font-size: 14px;
+    }
+  }
+  
+  /* Ajoutez des styles pour la vague si vous avez une image ou un SVG à inclure */
+  .footer-wave {
+    background-image: url('../../assets/TATTOO.png'); // Remplacez par le chemin de votre image ondulée
+    height: 20px;
+    background-size: cover;
+  }
+  

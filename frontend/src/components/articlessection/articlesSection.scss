@@ -1,0 +1,37 @@
+.articles-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); // Crée deux colonnes de taille égale
+    align-items: center;
+    padding: 20px;
+    gap: 20px; // Espacement entre les articles
+    max-width: 1600px; // Limite la largeur maximale de la section
+    margin: auto; // Centre la grille horizontalement
+  
+    .article {
+      background: #fff; // Fond blanc pour une meilleure lisibilité
+      border-radius: 8px; // Bords arrondis pour un look moderne
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Ombre subtile pour un effet de profondeur
+      padding: 20px; // Espacement interne
+      text-align: center; // Centrage du texte
+  
+      img, video {
+        width: 100%; // L'image/vidéo prend toute la largeur du conteneur
+        height: auto; // Hauteur automatique pour maintenir l'aspect ratio
+        border-radius: 5px; // Bords légèrement arrondis pour les images/vidéos
+        margin-bottom: 10px; // Espacement en dessous de l'image/vidéo
+      }
+  
+      h3 {
+        color: #333; // Couleur foncée pour le titre pour un contraste optimal
+        margin-top: 20px; // Espacement au-dessus du titre
+      }
+  
+      p {
+        color: #666; // Couleur plus claire pour le texte descriptif
+        font-size: 1rem; // Taille de police standard
+        margin-top: 10px; // Espacement au-dessus de la description
+        margin-bottom: 20px; // Espacement en dessous de la description
+      }
+    }
+  }
+  

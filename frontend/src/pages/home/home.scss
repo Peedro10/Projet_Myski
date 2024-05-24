@@ -1,16 +1,52 @@
 @import "../../style.scss";
 
-.home{
+.home {
   @include themify($themes) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; // Modifié pour aligner le contenu au début du container
+    align-items: center;
+    min-height: 100vh; // Modifié pour assurer que le footer ne remonte pas
     padding: 20px 70px;
     background-color: themed("bgSoft");
+    color: themed("textColor");
+    border: 1px solid themed("border");
+    gap: 20px; // Ajouté pour espacer les composants verticalement
 
-    @include mobile {
-      padding: 10px;
+    .text-content, .image-gallery, .articles-section, .footer {
+      width: 100%; // Assure que tous les enfants utilisent toute la largeur disponible
     }
 
-    @include tablet{
-      padding: 20px;
+    h1, p {
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+      opacity: 0.85;
     }
   }
- }
+
+  @include mobile {
+    padding: 10px;
+
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
+
+  @include tablet {
+    padding: 20px;
+  }
+}

@@ -1,53 +1,42 @@
+import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
+import { AuthContext } from '../../context/authContext';
+import Logo from '../../assets/Myski.png';
 import "./navbar.scss";
-import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
-import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
-import WbSunnyOutlinedIcon from "@mui/icons-material/WbSunnyOutlined";
-import GridViewOutlinedIcon from "@mui/icons-material/GridViewOutlined";
-import NotificationsOutlinedIcon from "@mui/icons-material/NotificationsOutlined";
-import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
-import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
-import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
-import { Link } from "react-router-dom";
-import { useContext } from "react";
-import { DarkModeContext } from "../../context/darkModeContext";
-import { AuthContext } from "../../context/authContext";
 
 const Navbar = () => {
-  const { toggle, darkMode } = useContext(DarkModeContext);
-  const { currentUser } = useContext(AuthContext);
+    const { currentUser, logout } = useContext(AuthContext);
 
-  return (
-    <div className="navbar">
-      <div className="left">
-        <Link to="/" style={{ textDecoration: "none" }}>
-          <span>lamasocial</span>
-        </Link>
-        <HomeOutlinedIcon />
-        {darkMode ? (
-          <WbSunnyOutlinedIcon onClick={toggle} />
-        ) : (
-          <DarkModeOutlinedIcon onClick={toggle} />
-        )}
-        <GridViewOutlinedIcon />
-        <div className="search">
-          <SearchOutlinedIcon />
-          <input type="text" placeholder="Search..." />
-        </div>
-      </div>
-      <div className="right">
-        <PersonOutlinedIcon />
-        <EmailOutlinedIcon />
-        <NotificationsOutlinedIcon />
-        <div className="user">
-          <img
-            src={currentUser.profilePic}
-            alt=""
-          />
-          <span>{currentUser.name}</span>
-        </div>
-      </div>
-    </div>
-  );
+    return (
+        <nav className="navbar">
+            <div className="logo">
+                <Link to="/">
+                    <img src={Logo} alt="Myski Logo" />
+                </Link>
+            </div>
+            <ul className="nav-links">
+                <li><Link to="/">Accueil</Link></li>
+                <li><Link to="/pistes">Pistes</Link></li>
+                <li><Link to="/remontees">Remontées</Link></li>
+                <li><Link to="/commentaires_pistes">Commentaires Pistes</Link></li> 
+                <li><Link to="/commentaires_remontees">Commentaires Remontées</Link></li>
+                <li><Link to="/chats">Chats</Link></li> {/* Added link for Chats */}
+                <li><Link to="/itineraires">Itinéraires</Link></li> {/* Added link for Itinéraires */}
+                {currentUser ? (
+                    <>
+                        <li style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                            <span style={{ marginBottom: '4px' }}>{currentUser.username}</span>
+                            <button onClick={logout} style={{ border: 'none', background: 'transparent', color: '#fff', cursor: 'pointer' }}>
+                                Déconnexion
+                            </button>
+                        </li>
+                    </>
+                ) : (
+                    <li><Link to="/login">Connexion</Link></li>
+                )}
+            </ul>
+        </nav>
+    );
 };
 
 export default Navbar;

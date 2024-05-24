@@ -1,7 +1,8 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./register.scss";
 import axios from "axios";
+import backgroundImage from '../../assets/9.jpg'; // Assurez-vous que le chemin est correct
 
 const Register = () => {
   const [inputs, setInputs] = useState({
@@ -12,46 +13,43 @@ const Register = () => {
   });
 
   const [err, setErr] = useState(null);
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
-    setInputs((prev) => ({ ...prev, [e.target.name]: e.target.value }));
+    setInputs(prev => ({ ...prev, [e.target.name]: e.target.value }));
+    if (err) setErr(null);  // Reset errors on input change
   };
 
-  const handleClick = async (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    if (!inputs.username || !inputs.email || !inputs.password || !inputs.name) {
+      setErr("Please fill in all fields");
+      return;
+    }
   
     try {
       await axios.post("http://localhost:8800/api/auth/register", inputs);
-    } catch (err) {
-      setErr(err.response.data);
+      navigate("/login");  // Navigate to login after successful registration
+    } catch (error) {
+      setErr(error.response.data);
     }
   };
-  console.log(err);
-  
 
   return (
-    <div className="register">
-      <div className="card">
-        <div className="left">
-          <h1>Myski</h1>
-          <p>
-          
-          </p>
-          <span>Do you have an account?</span>
-          <Link to="/login">
-            <button>Login</button>
-          </Link>
-        </div>
-        <div className="right">
+    <div className="register" style={{ backgroundImage: `url(${backgroundImage})` }}>
+      <div className="register-container">
+        <div className="form-container">
           <h1>Register</h1>
-          <form>
-            <input type="text" placeholder="Username" name="username" onChange={handleChange} />
-            <input type="email" placeholder="Email" name="email" onChange={handleChange} />
-            <input type="password" placeholder="Password" name="password" onChange={handleChange} />
-            <input type="text" placeholder="Name" name="name" onChange={handleChange} />
+          <form onSubmit={handleSubmit}>
+            <input type="text" placeholder="Username" name="username" value={inputs.username} onChange={handleChange} />
+            <input type="email" placeholder="Email" name="email" value={inputs.email} onChange={handleChange} />
+            <input type="password" placeholder="Password" name="password" value={inputs.password} onChange={handleChange} />
+            <input type="text" placeholder="Name" name="name" value={inputs.name} onChange={handleChange} />
             {err && <p className="error">{err}</p>}
-            <button onClick={handleClick}>Register</button>
+            <button type="submit">Register</button>
           </form>
+          <span>Already have an account?</span>
+          <Link to="/login"><button className="switch-button">Login</button></Link>
         </div>
       </div>
     </div>

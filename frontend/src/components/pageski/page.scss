@@ -1,0 +1,86 @@
+@keyframes slideFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.page-container {
+  position: relative;
+  width: 100%;
+
+  .text-content {
+    text-align: center;
+    padding: 30px 0; // Augmente l'espacement pour descendre le texte
+    background: linear-gradient(120deg, #02aab0, #0a89d8); // Un exemple de gradient
+    // background-image: url('path_to_your_background_image.jpg'); // Décommentez pour utiliser une image
+    color: rgb(19, 19, 19); // Assurez-vous que le texte est lisible
+    margin-top: 30px; // Espace supplémentaire en haut si nécessaire
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); // Optionnel: ajoute une ombre pour un effet de profondeur
+  }
+
+  .image-gallery {
+    position: relative;
+    width: 100%;
+    height: 900px; // Vérifiez si cette hauteur convient à votre design
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: opacity 0.5s ease-in-out;
+      opacity: 0;
+      animation: slideFromLeft 1s forwards;
+    }
+
+    img.show {
+      opacity: 1;.page-container {
+        position: relative;
+        width: 100%;
+      
+        .text-content, .image-gallery, .video-gallery, .blog-gallery {
+          text-align: center;
+          margin-bottom: 20px;
+        }
+      
+        .video-gallery {
+          display: flex;
+          justify-content: center;
+          gap: 20px;
+        }
+      
+        .blog-gallery {
+          display: flex;
+          justify-content: center;
+          gap: 20px;
+        }
+      
+        .blog-item {
+          width: 23%; // Ajuster selon le nombre d'éléments pour que tout tienne sur une ligne
+          text-align: center;
+      
+          img {
+            width: 100%;
+            height: auto;
+          }
+      
+          p {
+            margin-top: 10px;
+          }
+        }
+      
+        img, video {
+          max-width: 100%;
+          height: auto;
+        }
+      }
+      
+    }
+  }
+}
