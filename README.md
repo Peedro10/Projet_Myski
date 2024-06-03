@@ -13,14 +13,14 @@
 
 ## Captures d'Écran
 
-                                                                                   ** Authentification** 
+                                                       ** Authentification** 
 
-  [      [[<img width="1078" alt="5" src="https://github.com/Peedro10/Projet_Myski/assets/122865471/ef638b9c-df33-4f46-b31e-348ef42c2867">](https://github.com/Peedro10/Projet_Myski/issues/1#issue-2330617227)](https://github.com/Peedro10/Projet_Myski/issues/1#issue-2330617227)](https://github.com/Peedro10/Projet_Myski/issues/1#issue-2330617227)
+    [<img width="1078" alt="5" src="https://github.com/Peedro10/Projet_Myski/assets/122865471/ef638b9c-df33-4f46-b31e-348ef42c2867">](https://github.com/Peedro10/Projet_Myski/issues/1#issue-2330617227)]
 
                                                                                     
                                                                                           **Login**
 
- [     > <img alt="1" width="1074" src="https://private-user-images.githubusercontent.com/122865471/336014396-0a54efdd-5028-4460-b021-aefc6858dc24.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc0MDcwNzgsIm5iZiI6MTcxNzQwNjc3OCwicGF0aCI6Ii8xMjI4NjU0NzEvMzM2MDE0Mzk2LTBhNTRlZmRkLTUwMjgtNDQ2MC1iMDIxLWFlZmM2ODU4ZGMyNC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYwM1QwOTI2MThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00MTczNjc5NWE0N2Q2YmIyZDkwZGUwN2EyODk2YTBjMDQwZTkxZWJiZWYwMjFjYWY1ZGNlM2EyYzhkMjUzNjA3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.INqoMQqL8I6s0k_bLfQkOTgQOnoILC92p39cmFMoyIg">](https://github.com/Peedro10/Projet_Myski/issues/2#issue-2330628640)
+ [<img alt="1" width="1074" src="https://private-user-images.githubusercontent.com/122865471/336014396-0a54efdd-5028-4460-b021-aefc6858dc24.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc0MDcwNzgsIm5iZiI6MTcxNzQwNjc3OCwicGF0aCI6Ii8xMjI4NjU0NzEvMzM2MDE0Mzk2LTBhNTRlZmRkLTUwMjgtNDQ2MC1iMDIxLWFlZmM2ODU4ZGMyNC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYwM1QwOTI2MThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00MTczNjc5NWE0N2Q2YmIyZDkwZGUwN2EyODk2YTBjMDQwZTkxZWJiZWYwMjFjYWY1ZGNlM2EyYzhkMjUzNjA3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.INqoMQqL8I6s0k_bLfQkOTgQOnoILC92p39cmFMoyIg">](https://github.com/Peedro10/Projet_Myski/issues/2#issue-2330628640)
 
 
 
