@@ -14,8 +14,9 @@
 ## Captures d'Écran
 
                                                                                    ** Authentification**
-                                                                                   
-                                                                                    ![Uploading 5.png…]() 
+
+        <img width="1078" alt="5" src="https://github.com/Peedro10/Projet_Myski/assets/122865471/ef638b9c-df33-4f46-b31e-348ef42c2867">
+
                                                                                     
                                                                                           **Login**
 
