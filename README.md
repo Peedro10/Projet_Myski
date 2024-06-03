@@ -16,16 +16,8 @@
 
 > <img alt="5" width="1078" src="https://private-user-images.githubusercontent.com/122865471/336012431-ef638b9c-df33-4f46-b31e-348ef42c2867.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc0MDc0MjQsIm5iZiI6MTcxNzQwNzEyNCwicGF0aCI6Ii8xMjI4NjU0NzEvMzM2MDEyNDMxLWVmNjM4YjljLWRmMzMtNGY0Ni1iMzFlLTM0OGVmNDJjMjg2Ny5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYwM1QwOTMyMDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02NzFhN2I2OWU4NWUzNjVhMDhiNDg0M2RhYzUyZDE3ZjgzY2I3ZmQ5YTkwNmNlY2Q5ZDI0ZjUyOTk0ODM4ZDU5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.iDO0fKzpYrvaoBzlrgH1_zP2cCRd_fkH0ow5k6j69ps">
 
-
-
-> <img alt="5" width="1078" src="https://private-user-images.githubusercontent.com/122865471/336012431-ef638b9c-df33-4f46-b31e-348ef42c2867.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc0MDc0MjQsIm5iZiI6MTcxNzQwNzEyNCwicGF0aCI6Ii8xMjI4NjU0NzEvMzM2MDEyNDMxLWVmNjM4YjljLWRmMzMtNGY0Ni1iMzFlLTM0OGVmNDJjMjg2Ny5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYwM1QwOTMyMDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02NzFhN2I2OWU4NWUzNjVhMDhiNDg0M2RhYzUyZDE3ZjgzY2I3ZmQ5YTkwNmNlY2Q5ZDI0ZjUyOTk0ODM4ZDU5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.iDO0fKzpYrvaoBzlrgH1_zP2cCRd_fkH0ow5k6j69ps">
-
-
-
-
-
-                                                                                    
   ## Login
+
 
  [<img alt="1" width="1074" src="https://private-user-images.githubusercontent.com/122865471/336014396-0a54efdd-5028-4460-b021-aefc6858dc24.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc0MDcwNzgsIm5iZiI6MTcxNzQwNjc3OCwicGF0aCI6Ii8xMjI4NjU0NzEvMzM2MDE0Mzk2LTBhNTRlZmRkLTUwMjgtNDQ2MC1iMDIxLWFlZmM2ODU4ZGMyNC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYwM1QwOTI2MThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00MTczNjc5NWE0N2Q2YmIyZDkwZGUwN2EyODk2YTBjMDQwZTkxZWJiZWYwMjFjYWY1ZGNlM2EyYzhkMjUzNjA3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.INqoMQqL8I6s0k_bLfQkOTgQOnoILC92p39cmFMoyIg">](https://github.com/Peedro10/Projet_Myski/issues/2#issue-2330628640)
 
@@ -33,13 +25,21 @@
 
  ##  Liste des Pistes 
 
-                                                                                       ![Uploading 2.png…]()
+ > <img alt="2" width="1073" src="https://private-user-images.githubusercontent.com/122865471/336018424-8d603ee1-80c8-4118-8db0-01cb5247386f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc0MDc2MTIsIm5iZiI6MTcxNzQwNzMxMiwicGF0aCI6Ii8xMjI4NjU0NzEvMzM2MDE4NDI0LThkNjAzZWUxLTgwYzgtNDExOC04ZGIwLTAxY2I1MjQ3Mzg2Zi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYwM1QwOTM1MTJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hNDc3NWYyMGNjYjA4ZWJmZWZlMGIxYjMyMzEyNmZjMzYyNzkzMjkyM2IxMGEwMmUwOGM1NGRlYmNiMWRmOTU4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.mDBix3gO525vMpYwON99KriJqKpckJAfPGxHYw_EaIs">
 
-                                                                                   **Commentaires sur les Pistes**
-                                                                                        ![Uploading 4.png…]()
 
-                                                                                        **Chat Interne **
-                                                                                        ![Uploading 3.png…]()
+
+ ## Commentaires sur les Pistes
+
+ > <img alt="4" width="1080" src="https://private-user-images.githubusercontent.com/122865471/336018860-5ba70e65-ba74-4f52-bf41-59d445a98506.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc0MDc2ODMsIm5iZiI6MTcxNzQwNzM4MywicGF0aCI6Ii8xMjI4NjU0NzEvMzM2MDE4ODYwLTViYTcwZTY1LWJhNzQtNGY1Mi1iZjQxLTU5ZDQ0NWE5ODUwNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYwM1QwOTM2MjNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hMDA4ZWY4ZjQwMzc5MDU4ZjczM2E2ZTFlMTVhOTAwYWE0YjY5MzhkZWEyNWJkNWI3NDNkZGFkYzk0ZGY0MTQ4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.udsCZyVZtcWDRjRGthexzhKNt1RaF3nTrgBYAzeuOyA">
+
+
+                                                                                        
+
+## Chat Interne 
+                                                                               
+> <img alt="3" width="1081" src="https://private-user-images.githubusercontent.com/122865471/336019241-a859fb59-3054-4644-90a4-c0e98e828479.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc0MDc3NDcsIm5iZiI6MTcxNzQwNzQ0NywicGF0aCI6Ii8xMjI4NjU0NzEvMzM2MDE5MjQxLWE4NTlmYjU5LTMwNTQtNDY0NC05MGE0LWMwZTk4ZTgyODQ3OS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYwM1QwOTM3MjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lNjRkNTcxMzBiMTM2MjQ4YTI0Zjk1M2JlN2E0OTFkM2UzYmIzYjE1M2U4MTcxYmNkM2E5N2M2ZGIzZDRhNDYxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.wRJLsk9AqmlKyabzG85MlZUf-KRAZiXakBjiTT3t75s">
+
 
 
 
