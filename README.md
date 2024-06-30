@@ -31,7 +31,8 @@
 
  ## Commentaires sur les Pistes
 
-<img width="1073" alt="2" src="https://github.com/Peedro10/Projet_Myski/assets/122865471/8d603ee1-80c8-4118-8db0-01cb5247386f">
+<img width="1080" alt="4" src="https://github.com/Peedro10/Projet_Myski/assets/122865471/5ba70e65-ba74-4f52-bf41-59d445a98506">
+
 
 
 
