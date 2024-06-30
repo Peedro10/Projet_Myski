@@ -16,7 +16,6 @@
 
 <img width="1078" alt="5" src="https://github.com/Peedro10/Projet_Myski/assets/122865471/69bd81d9-9ed0-4a1a-8dcd-edfd503e0f26">
 
-S
   ## Login
 
 
@@ -39,7 +38,8 @@ S
 
 ## Chat Interne 
                                                                                
-> <img alt="3" width="1081" src="https://private-user-images.githubusercontent.com/122865471/336019241-a859fb59-3054-4644-90a4-c0e98e828479.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc0MDc3NDcsIm5iZiI6MTcxNzQwNzQ0NywicGF0aCI6Ii8xMjI4NjU0NzEvMzM2MDE5MjQxLWE4NTlmYjU5LTMwNTQtNDY0NC05MGE0LWMwZTk4ZTgyODQ3OS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYwM1QwOTM3MjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lNjRkNTcxMzBiMTM2MjQ4YTI0Zjk1M2JlN2E0OTFkM2UzYmIzYjE1M2U4MTcxYmNkM2E5N2M2ZGIzZDRhNDYxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.wRJLsk9AqmlKyabzG85MlZUf-KRAZiXakBjiTT3t75s">
+<img width="1081" alt="3" src="https://github.com/Peedro10/Projet_Myski/assets/122865471/a859fb59-3054-4644-90a4-c0e98e828479">
+
 
 
 
