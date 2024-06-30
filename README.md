@@ -31,7 +31,8 @@
 
  ## Commentaires sur les Pistes
 
- > <img alt="4" width="1080" src="https://private-user-images.githubusercontent.com/122865471/336018860-5ba70e65-ba74-4f52-bf41-59d445a98506.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTc0MDc2ODMsIm5iZiI6MTcxNzQwNzM4MywicGF0aCI6Ii8xMjI4NjU0NzEvMzM2MDE4ODYwLTViYTcwZTY1LWJhNzQtNGY1Mi1iZjQxLTU5ZDQ0NWE5ODUwNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNjAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDYwM1QwOTM2MjNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hMDA4ZWY4ZjQwMzc5MDU4ZjczM2E2ZTFlMTVhOTAwYWE0YjY5MzhkZWEyNWJkNWI3NDNkZGFkYzk0ZGY0MTQ4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.udsCZyVZtcWDRjRGthexzhKNt1RaF3nTrgBYAzeuOyA">
+<img width="1073" alt="2" src="https://github.com/Peedro10/Projet_Myski/assets/122865471/8d603ee1-80c8-4118-8db0-01cb5247386f">
+
 
 
                                                                                         
